@@ -62,7 +62,7 @@ const Home = () => {
             <div>
                 <List
                     itemLayout="vertical"
-                    size="large"
+                    size="small"
                     pagination={{
                         onChange: (page) => {
                             console.log(page);
@@ -78,7 +78,7 @@ const Home = () => {
                     }*/
                     renderItem={(item) => (
                         <List.Item
-                            key={item.snippet.title}
+                            key={item.id.videoId}
                             actions={[
                                 <IconText icon={StarOutlined} text="156" key="list-vertical-star-o" />,
                                 <IconText icon={LikeOutlined} text="156" key="list-vertical-like-o" />,
