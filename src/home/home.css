@@ -1,0 +1,12 @@
+.bg{
+
+}
+
+.search{
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
